@@ -10,7 +10,7 @@ void main()
 
     printf("------------------- Linear Serach -------------------\n");
     int res = linear_search(arr, n, key);
-    if (res == -1)
+    if (res ==-1)
         printf("The element %d is not found in the array\n", key);
     else{
         printf("The element %d is found at the index %d\n", arr[res], res);
